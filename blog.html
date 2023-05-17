@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maniwaya Island </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo1.png" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="prep.html">Services</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> History and Information of Maniwaya Island </h1>
+
+    </section>
+
+    <!-- -----------Footer------------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/about2.jpg">
+                <h2> About Our Island </h2>
+                
+                <p>The Philippines is an archipelago dotted by more than 7500 islands and islets and surrounded by one of the world’s most diverse ocean waters. Hence, discovering gorgeously beautiful and pristine islands in the country should not come as a surprise but the case is utterly otherwise. Everyday, we come across precious delights that don’t ever fail to satisfy the eye and trigger our inner wanderlust. Each day, a handful of stunning islands and must-see destinations in the country are discovered, adding to our already overflowing bucket list. There’s always a secret to unravel in every hidden corner and the possibility of stumbling into something wonderful is limitless. Maniwaya Island happens to be one of those undiscovered jewels concealed behind the shadows in the not so distant province of Marinduque.</p>
+                <br>
+                <p>Marinduque is widely known for the traditional Moriones Festival celebrated annually during the Holy Week but little do people know that there’s more to this province than men dressed in ancient Roman costumes and morion masks until an island promising white sandy shores, turquiose seawater, stunning sandbar and amazing rock formation surfaced the internet. It didn’t take long for people to take notice of the long, unspoken jewel that was Maniwaya Island and the myriads of splendid things it offers.</p>
+                <br>
+                <p>Maniwaya Island is part of the town of Sta Cruz in Marinduque and is less than an hour of boat ride away from the main island. It is surprisingly undeveloped with only a handful of resorts lined along its shores of rough coral stones and white sugary sands. Its water is teeming with life although negative effects of cyanide and dynamite fishing in the past are still very much evident in one too many dead corals scattered in its ocean floor. Its rustic vibe and tranquil state are its most redeeming qualities. Plus, it is totally off the path and uncrowded so you are guaranteed to have that patch of sand to frolic under the sun with for that much needed tan.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="name" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <textarea type="text" rows="5" placeholder="Your comment"></textarea>
+                        <button class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Summary Expenses</h3>
+                <div>
+                    <span>1Rountrip Manila-Gen.Luna </span>
+                    <span>P900</span>
+                </div>
+                <div>
+                    <span>Food (Marketing) P2500/10</span>
+                    <span>P250</span>
+                </div>
+                <div>
+                    <span>Accommodation (Wawie's Beach) P1200/room/3pax</span>
+                    <span>P400</span>
+                </div>
+                <div>
+                    <span>Island Hopping P5000/10pax</span>
+                    <span>P500</span>
+                </div>
+                <div>
+                    <span>Banana Boating</span>
+                    <span>P200</span>
+                </div>
+                <div>
+                    <span><h4>Total</h4></span>
+                    <span>P2,250</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The content of every page of this website is for educational purposes only.  We are neither responsible, nor have we control, on content of any external website links. Every effort has been made to make the contents of this website accurate and up-to-date.</p>
+
+        <div class="icons">
+            <a href="#"
+                target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-pinterest"></i></a>
+        </div>
+        <p>Copyright &copy 2023 | Created by Elvin Tolin</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
